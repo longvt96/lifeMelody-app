@@ -1,0 +1,119 @@
+#page title
+page_title                                : # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 1582997024                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             : # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually. When chaning, use new filename for cache busting.
+app_name                                  :  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Say goodbye your boring home screen.
+
+enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Long  ❤️
+your_link                                 : https://www.facebook.com/long1404/
+your_city                                 : 
+email_address                             : thanhlong140496@gmail.com
+facebook_username                         : long1404
+instagram_username                        : long1404
+twitter_username                          : long vu
+github_username                           : longvt96
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Aesthetic Themes
+    description                           : 100+ aesthetic themes for iOS 14. Each can be adjusted precisely to best fit your desired function and appearance.
+    fontawesome_icon_name                 : icons
+
+  - title                                 : Create your own icons
+    description                           : You can create a new app icon from scratch, get your art skills, and personalize to the highest level.
+    fontawesome_icon_name                 : plus
+
+  - title                                 : High-quality wallpapers
+    description                           : 100+ wallpapers matching themes. You also can easy to create a color background image with one tap.
+    fontawesome_icon_name                 : expand
+
+  - title                                 : Photo Widget
+    description                           : Decorate your iPhone home screen with your favorite photos.
+    fontawesome_icon_name                 : images
+
+  - title                                 : Easy install
+    description                           : Easy themes install without Shortcuts.
+    fontawesome_icon_name                 : toggle-on
+
+  - title                                 : Privacy
+    description                           : No ads, no tracking, can be used offline.
+    fontawesome_icon_name                 : thumbs-up
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage-v1.3.1.jpg                 # Replace with alternative image path or image URL. When chaning, use new filename for cache busting.
+cover_overlay_color                       : "#0A8CAA"
+cover_overlay_transparency                : 0.6
+
+device_color                              :                                      # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#D60042"
+feature_icons_background_color            : "#7747FD15"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
