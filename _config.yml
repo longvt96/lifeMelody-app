@@ -34,28 +34,24 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Aesthetic Themes
-    description                           : 100+ aesthetic themes for iOS 14. Each can be adjusted precisely to best fit your desired function and appearance.
+  - title                                 : Melodies
+    description                           : Many melodies in life are divided into different categories nature, water, animal,..
     fontawesome_icon_name                 : icons
 
-  - title                                 : Create your own icons
-    description                           : You can create a new app icon from scratch, get your art skills, and personalize to the highest level.
+  - title                                 : Meditations
+    description                           : Many meditation audios help you reduce stress more after every day.
     fontawesome_icon_name                 : plus
 
-  - title                                 : High-quality wallpapers
-    description                           : 100+ wallpapers matching themes. You also can easy to create a color background image with one tap.
+  - title                                 : Stories
+    description                           : Many stories to help you relax and learn more knowledge.
     fontawesome_icon_name                 : expand
 
-  - title                                 : Photo Widget
-    description                           : Decorate your iPhone home screen with your favorite photos.
+  - title                                 : Mixed
+    description                           : You can mix melodies, meditations and stories to create your own tune.
     fontawesome_icon_name                 : images
 
-  - title                                 : Easy install
-    description                           : Easy themes install without Shortcuts.
-    fontawesome_icon_name                 : toggle-on
-
   - title                                 : Privacy
-    description                           : No ads, no tracking, can be used offline.
+    description                           : No tracking.
     fontawesome_icon_name                 : thumbs-up
 
 
